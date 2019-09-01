@@ -100,6 +100,6 @@ public class BattleSystem : MonoBehaviour
         TeamA.DisableWinEffects();
         TeamB.DisableWinEffects();
         Debug.LogWarning("HandleFightOver called, may need to prepare or clean dancers or teams and checks before doing GameEvents.RequestFighters()");
-        //GameEvents.RequestFighters();
+        GameEvents.RequestFighters();
     }
 }
