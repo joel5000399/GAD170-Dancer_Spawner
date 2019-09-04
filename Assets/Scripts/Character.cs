@@ -41,6 +41,7 @@ public class Character : MonoBehaviour
 
     public void InitialStats()
     {
+        // TODO - First, you can
         level = 1;
         style = Random.Range(0, 4);
         availablePoints -= style;

@@ -29,6 +29,7 @@ public class CharacterNameGenerator : ScriptableObject
     {
         CharacterName[] names = new CharacterName[namesNeeded];
 
+        //TODO - filling this with empty names so the rest of our code is safe to run without need for many null checks
         CharacterName emptyName = new CharacterName(string.Empty, string.Empty, string.Empty, string.Empty);
         for (int i = 0; i < names.Length; i++)
         {
