@@ -42,7 +42,7 @@ public class FightManager : MonoBehaviour
 
         yield return new WaitForSeconds(fightAnimTime);
 
-        float outcome = 0;
+        float outcome = Random.Range(-1f, 1f);
         //defaulting to draw 
         Character winner = lhs, defeated = rhs;
         Debug.LogWarning("Attack called, needs to use character stats to determine winner with win strength from 1 to -1. This can most likely be ported from previous brief work.");

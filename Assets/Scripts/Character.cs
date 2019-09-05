@@ -44,9 +44,8 @@ public class Character : MonoBehaviour
         // TODO - First, you can
         level = 1;
         style = Random.Range(0, 4);
-        availablePoints -= style;
+        availablePoints -= style + rhythm;
         rhythm = Random.Range(0, 4);
-        availablePoints -= rhythm;
         luck = availablePoints;
     }
 

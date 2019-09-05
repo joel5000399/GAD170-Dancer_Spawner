@@ -32,7 +32,6 @@ public class DanceTeamInit : MonoBehaviour
     void InitTeams()
     {
 
-
         Debug.LogWarning("InitTeams called, needs to generate names for the teams and set them with teamA.SetTroupeName");
 
         teamA.InitaliseTeamFromNames( dancerPrefab, 1f, nameGenerator.GenerateNames(3));
